@@ -1,15 +1,7 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
-
 const convertBtn = document.getElementById("convert-btn")
-let lengthConversion = document.getElementById("length-conversion")
-let volumeConversion = document.getElementById("volume-conversion")
-let massConversion = document.getElementById("mass-conversion")
-
-
+const lengthConversion = document.getElementById("length-conversion")
+const volumeConversion = document.getElementById("volume-conversion")
+const massConversion = document.getElementById("mass-conversion")
 
 convertBtn.addEventListener("click", function() {
     const unitNumber = parseInt(document.getElementById("unit-number").value)
