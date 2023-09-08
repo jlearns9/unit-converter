@@ -20,6 +20,6 @@ convertBtn.addEventListener("click", function() {
     const kilosToPounds = unitNumber * 2.204
     const poundsToKilos = unitNumber / 2.204
     lengthConversion.innerHTML = `${unitNumber} meters = ${metersToFeet.toFixed(3)} feet | ${unitNumber} feet = ${feetToMeters.toFixed(3)} meters`
-    volumeConversion.innerHTML = `${unitNumber} meters = ${litersToGallons.toFixed(3)} feet | ${unitNumber} feet = ${gallonsToLiters.toFixed(3)} meters`
-    massConversion.innerHTML = `${unitNumber} meters = ${kilosToPounds.toFixed(3)} feet | ${unitNumber} feet = ${poundsToKilos.toFixed(3)} meters`    
+    volumeConversion.innerHTML = `${unitNumber} liters = ${litersToGallons.toFixed(3)} gallons | ${unitNumber} gallons = ${gallonsToLiters.toFixed(3)} liters`
+    massConversion.innerHTML = `${unitNumber} kilograms = ${kilosToPounds.toFixed(3)} pounds | ${unitNumber} pounds = ${poundsToKilos.toFixed(3)} kilograms`    
 })
